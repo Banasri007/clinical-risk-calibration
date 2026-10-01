@@ -1,0 +1,16 @@
+# Raw data is downloaded from UCI on first run (see README)
+data/
+
+# Course submission documents (not part of the code release)
+problem-statement.md
+problem-statement.docx
+report-draft.md
+src/make_docx.py
+
+# Run logs and the exploratory pilot
+results/**/log.txt
+results/pilot/
+
+__pycache__/
+*.pyc
+.claude/

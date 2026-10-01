@@ -1,0 +1,37 @@
+H1  share of corrected models (no recalibration) with intercept < 0: 99.4%
+
+H1  median intercept by event fraction: 0.1%: -6.89, 0.2%: -6.19, 0.5%: -5.25, 1%: -4.57, 2%: -3.89
+
+H1  ΔAUROC corrected - uncorrected: median -0.002, share improved by > 0.01: 25.7%
+
+H2  corrected models, median over all cells:
+               abs_int  abs_slope_dev  ici_rel
+recalibration                                 
+none             4.583          0.584   37.885
+prior            0.240          0.574    0.523
+intercept        0.049          0.583    0.487
+platt            0.038          0.077    0.151
+isotonic         0.041          0.123    0.136
+beta             0.038          0.079    0.140
+
+H2  prior correction O/E ratio by correction (1 = ideal): adasyn: 1.10, ros: 1.27, rus: 0.87, smote: 1.13, weighted: 1.37
+
+H3  extreme-probability classifiers:
+                          ici_rel  slope
+classifier recalibration                
+cart       beta             0.202  0.987
+           isotonic         0.136  0.926
+           platt            0.261  1.005
+nb         beta             0.109  0.986
+           isotonic         0.141  0.885
+           platt            0.100  1.000
+
+H4  uncorrected @ prevalence threshold vs corrected @ 0.5 (medians):
+            sens_tprev  spec_tprev  sens_t050  spec_t050
+classifier                                              
+cart             0.398       0.761      0.515      0.679
+lr               0.686       0.681      0.667      0.683
+mlp              0.585       0.590      0.074      0.965
+nb               0.668       0.684      0.635      0.684
+rf               0.562       0.680      0.005      0.998
+xgb              0.495       0.748      0.398      0.807
