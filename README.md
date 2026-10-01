@@ -126,5 +126,3 @@ The full runs take several hours on a 16-core machine. On Windows, a harmless jo
 - M. Piccininni et al., *Journal of Biomedical Informatics* 155:104666, 2024, [doi:10.1016/j.jbi.2024.104666](https://doi.org/10.1016/j.jbi.2024.104666)
 - B. Van Calster et al., *BMC Medicine* 17:230, 2019, [doi:10.1186/s12916-019-1466-7](https://doi.org/10.1186/s12916-019-1466-7)
 - M. Kull, T. Silva Filho and P. Flach, *Electronic Journal of Statistics* 11(2):5052–5080, 2017, [doi:10.1214/17-EJS1338SI](https://doi.org/10.1214/17-EJS1338SI)
-
-*CSE 3125 Machine Learning mini-project, 2025–2026.*
